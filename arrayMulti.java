@@ -1,4 +1,5 @@
 public class arrayMulti {
+
     public static void main(String[] args) {
         int[][] matrice = { { 15, 53, 94, 75 }, { 75, 21, 36, 64 } };
         int somma = sommaMatrice(matrice);
@@ -15,3 +16,22 @@ public class arrayMulti {
         return somma;
     }
 }
+
+/*
+ * public static void main(String[] args) {
+ * int[][] matrice = { { 15, 53, 94, 75 }, { 75, 21, 36, 64 } };
+ * 
+ * System.out.println("la somma è: " + sommaMatrice(matrice));
+ * }
+ * 
+ * public static int sommaMatrice(int[][] matrice) {
+ * int primaRiga = 0;
+ * for (int j = 0; j < matrice[0].length; j++) {
+ * 
+ * primaRiga = primaRiga + matrice[0][j];
+ * }
+ * 
+ * return primaRiga;
+ * }
+ * }
+ */
