@@ -9,10 +9,12 @@
 
 public class casting1 {
     public static void main(String args[]) {
-        char a = '!';
-        char b = '>';
-        int c;
+        double a = 10.9;
+        double b = 33.5;
+        double c;
         c = a + b;
-        System.out.println(c);
+        int sommaSenzaVirgola = (int) c;
+        System.out.println(sommaSenzaVirgola);
+
     }
 }

@@ -1,11 +1,17 @@
 public class arrayMulti {
     public static void main(String[] args) {
-        int[][] a = { { 1, 2, 3 }, { 4, 5, 6, 7, 8, 9, 10 } };
+        int[][] matrice = { { 15, 53, 94, 75 }, { 75, 21, 36, 64 } };
+        int somma = sommaMatrice(matrice);
+        System.out.println("la somma della matrice è " + somma);
+    }
 
-        for (int i = 0; i < a.length; i++) {
-            for (int k = 0; k < a[i].length; k++)
-                System.out.println(a[i][k]);
+    public static int sommaMatrice(int[][] matrice) {
+        int somma = 0;
+        for (int j = 0; j < matrice[0].length; j++) {
 
+            somma = somma + matrice[0][j];
         }
+
+        return somma;
     }
 }
