@@ -5,11 +5,11 @@ package Ereditarietà.Esercizio2;
 
 public class Main {
     public static void main(String[] args) {
-        Forma forma = new Forma();
+        //Forma forma = new Forma();
         Rettangolo rettangolo = new Rettangolo(3, 5);
         Triangolo triangolo = new Triangolo(10, 6);
 
-        forma.calcolaArea();
+        //forma.calcolaArea();
         rettangolo.calcolaArea();
         triangolo.calcolaArea();
 
