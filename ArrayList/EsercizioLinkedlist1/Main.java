@@ -10,6 +10,9 @@ public class Main {
         Fruit fruit3 = new Fruit("Pesca");
         Fruit fruit4 = new Fruit("Papaia");
         Fruit fruit5 = new Fruit("Mango");
+        Fruit fruit6 = new Fruit("Fragole");
+        Fruit fruit7 = new Fruit("Cocco");
+
 
         LinkedList<Fruit> listaFrutta = new LinkedList<>();
         listaFrutta.add(fruit1);
@@ -18,7 +21,9 @@ public class Main {
         listaFrutta.add(fruit4);
         System.out.println("lista frutta originale: " + listaFrutta);
 
-        listaFrutta.addFirst(fruit5);
+        listaFrutta.add(fruit5);
+        listaFrutta.addFirst(fruit6);
+        listaFrutta.addLast(fruit7);
         System.out.println("lista frutta aggiornata: " + listaFrutta);
     }
 }
